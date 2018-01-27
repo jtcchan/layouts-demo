@@ -1,0 +1,49 @@
+/* setup */
+
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+
+header,
+section,
+aside,
+article,
+footer { border: 1px dashed rgba(0, 0, 0, 0.2); }
+
+header { background: rgba(255, 0, 0, 0.08); }
+section { background: rgba(255, 255, 0, 0.08); }
+aside { background: rgba(0, 255, 0, 0.08); }
+article { background: rgba(0, 0, 255, 0.08); }
+footer { background: rgba(255, 0, 255, 0.08); }
+
+header:before,
+section:before,
+article:before,
+aside:before,
+footer:before {
+  color: rgba(0,0,0,0.4);
+  display: block;
+  font: 16px/28px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  padding: 10px;
+  width: 100%;
+}
+
+header:before { content:"<header>"; }
+section:before { content:"<section>"; }
+article:before { content:"<article>"; }
+aside:before { content:"<aside>"; }
+footer:before { content:"<footer>"; }
+
+/* layout 1 */
+
+/* layout 2 */
+
+/* layout 3 */
+
+/* layout 4 */
+
+/* layout 5 */
+
+/* layout 6 */
+
+/* layout 7 - bonus */
